@@ -8,7 +8,7 @@
 @font-face {
   font-family: 'GothamPro';
   src: url('../fonts/GothamPro-LightItalic.woff') format('woff');
-  font-weight: normal;
+  font-weight: 300;
   font-style: italic;
  }
 
@@ -24,25 +24,4 @@ body {
    font-family: 'GothamPro', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.container {
-  margin: 0 auto;
-  width: 1060px;
-}
-
-.logo, .contacts {
-  display: inline-block;
-}
-
-.contacts__phone {
-  font-weight: bold;
-  font-size: 21px;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.header {
-  height: 300px;
-  background: url("../img/pictures/banner.jpg") center center no-repeat;
 }
