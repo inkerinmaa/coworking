@@ -1,0 +1,108 @@
+.footer {
+    font-family: "GothamPro", Arial, sans-serif;
+    background-color: #27273e;
+    height: 77px;
+    margin-top: -77px;
+    min-width: 1100px;
+    position: relative;
+  }
+
+  .footer__column {
+    float: left;
+    width: 33.3%;
+    padding-top: 15px;
+  }
+  
+  .footer__column--middle {
+    text-align: center;
+  }
+  
+  .footer__column--right {
+    text-align: right;
+  }
+  
+  
+  .socials__item {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #d4d4d8;
+    height: 20px;
+    width: 20px;
+    overflow: hidden;
+    position: relative;
+    transition: .3s;
+    margin-right: 10px;
+  }
+  
+  .socials__list:last-child {
+    margin-right: 17px;
+  }
+  
+  .socials__item:hover {
+    background-color: #ec1e79;
+  }
+  
+  .footer__copyright {
+    font-style: normal;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.1;
+  }
+  
+  .logo {
+    display: inline-block;
+  }
+  
+  .socials__title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-top: 2px;
+  }
+  
+  .socials__list {
+    font-size: 0px;
+  }
+  
+  .socials__link {
+    background-image: url('../../img/icon/spritesheet.png');
+      background-repeat: no-repeat; 
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  
+  .socials__link--vk {
+    width: 12px;
+    height: 7px;
+    background-position: -84px -57px;
+  }
+  
+  .socials__link--fb {
+    width: 6px;
+    height: 13px;
+    background-position: -65px -5px;
+  }
+  
+  .socials__link--google {
+    width: 15px;
+    height: 9px;
+    background-position: -5px -33px;
+  }
+  
+  .socials__link--twitter {
+    width: 11px;
+    height: 9px;
+    background-position: -5px -57px;
+  }
+  
+  .socials__link--mail {
+    width: 12px;
+    height: 9px;
+    background-position: -65px -28px;
+  }
