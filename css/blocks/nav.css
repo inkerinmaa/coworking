@@ -1,0 +1,103 @@
+.aside {
+    float: left;
+    width: 180px;
+    padding-top: 7px;
+  }
+  
+  .navigation__link {
+    font-family: 'GothamPro', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #ec1e79;
+    text-decoration: none;
+    letter-spacing: 1px;
+  }
+  
+  .navigation__text {
+    text-transform: uppercase;
+    margin-left: 13px;
+  }
+  
+  .navigation__item {
+    margin-bottom: 30px;
+  }
+  
+  .navigation__link .navigation__text:hover {
+    color: #000000;
+  }
+  
+  .navigation__link--active .navigation__text {
+    color: #000000;
+    border-bottom: 1px #d4d4d4 solid;
+  }
+  
+  .navigation__img, .navigation__text {
+    vertical-align: middle;
+    display: inline-block;
+  }
+  
+  .navigation__img:hover + .navigation__text {
+    color: #000000;
+    border-bottom: 1px #d4d4d4 solid;
+  }
+  
+  .navigation__img {
+    background-image: url('../../img/icon/spritesheet.png');
+      background-repeat: no-repeat; 
+    display: inline-block;
+  }
+  
+  .navigation__img--main {
+    width: 17px;
+    height: 15px;
+    background-position: -57px -47px;
+  }
+  
+  .navigation__link--active .navigation__img--main {
+    width: 17px;
+    height: 15px;
+    background-position: -30px -33px;
+  }
+  
+  .navigation__link:hover .navigation__img--main {
+    width: 17px;
+    height: 15px;
+    background-position: -30px -33px;
+  }
+  
+  .navigation__img--comments {
+      width: 20px;
+      height: 18px;
+    background-position: -35px -5px;
+  }
+  
+  .navigation__link--active .navigation__img--comments {
+    width: 20px;
+      height: 18px; 
+      background-position: -5px -5px;
+  }
+  
+  .navigation__link:hover .navigation__img--comments {
+      width: 20px;
+      height: 18px; 
+      background-position: -5px -5px;
+  }
+  
+  .navigation__img--prices {
+    width: 19px;
+    height: 16px;
+    background-position: -87px -31px;
+  }
+  
+  .navigation__link--active .navigation__img--prices {
+    width: 19px;
+    height: 16px;
+    background-position: -87px -5px;
+  }
+  
+  .navigation__link:hover .navigation__img--prices {
+    width: 19px;
+    height: 16px;
+    background-position: -87px -5px;
+  }
+  

@@ -1,64 +1,10 @@
-@import url('./footer.css');
+@import url('./layout/normalize.css');
+@import url('./layout/fonts.css');
+@import url('./layout/base.css');
 
-@font-face {
-    font-family: 'GothamPro';
-    src: url('../fonts/GothamPro-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: optional;
-  }
+@import url('./blocks/header.css');
+@import url('./blocks/nav.css');
+@import url('./blocks/footer.css');
 
-@font-face {
-  font-family: 'GothamPro';
-  src: url('../fonts/GothamPro-LightItalic.woff') format('woff');
-  font-weight: 300;
-  font-style: italic;
-  font-display: optional;
- }
-
-@font-face {
-  font-family: 'GothamPro';
-  src: url('../fonts/GothamPro-Bold.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-  font-display: optional;
-}
-
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-  
-body {
-   font-family: 'GothamPro', Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.container {
-  margin: 0 auto;
-  width: 1050px;
-}
-
-.header__right, .header__left  {
-  display: inline-block;
-}
-
-.contacts__phone {
-  font-weight: bold;
-  font-size: 21px;
-  color: #fff;
-  text-decoration: none;
-}
-
-.contacts__text {
-  color: rgba(236, 30, 121, .7);
-  font-size: 14px;
-  text-decoration: none;
-}
-
-.header {
-  height: 434px;
-  background: #27273e;
-}
+@import url('./pages/intro.css');
+@import url('./pages/index.css');
