@@ -53,7 +53,7 @@
   text-transform: uppercase;
   text-align: center;
   width: 200px;
-  font-family: 'GothamPro', Arial, Helvetica, sans-serif;
+  font-family: 'GothamPro', Arial, sans-serif;
   font-weight: bold;
 }
 
@@ -74,7 +74,7 @@
 }
 
 .price__text {
-  font-family: 'GothamPro', Arial, Helvetica, sans-serif;
+  font-family: 'GothamPro', Arial, sans-serif;
   text-align: center;
 }
 
