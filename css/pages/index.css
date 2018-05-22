@@ -1,12 +1,8 @@
-/* Баннер */
-
 .banner {
   width: 1100px;
   height: 367px;
   margin: 0 auto;
 }
-
-/* Особенности */
 
 .properties-block {
   font-family: 'GothamPro', Arial, sans-serif;
@@ -93,10 +89,8 @@ text-align: left;
   margin-bottom: 30px;
 }
 
-/* Новости */
-
 .news-block {
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: 'GothamPro', Arial, sans-serif;
   margin-bottom: 68px;
 }
 
@@ -163,9 +157,6 @@ text-align: left;
   transform: translate(-50%, -50%);
 }
 
-/* Нумерация */
-
-
 .pagination {
   text-align: center;
   font-family: 'Roboto', Arial, sans-serif;
@@ -213,12 +204,12 @@ text-align: left;
   margin: 0px 8px;
 }
 
-.pagination--rewiew {
+.pagination--review {
   text-align: center;
   margin-bottom: 57px;
 }
 
-.pagination--rewiew .pagination__btns {
+.pagination--review .pagination__btns {
   text-align: center;
 }
 

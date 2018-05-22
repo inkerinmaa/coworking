@@ -1,45 +1,112 @@
 html, body {
-    width: 100%;
-    height: 100%;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  min-width: 1100px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+.maincontent {
+  padding: 58px 0 69px 0;
+}
+
+.main-content_comments {
+  padding: 36px 0 51px 0;
+}
+
 .clearfix::after {
-    display: block;
-    content: "";
-    clear: both;
-  }
-  
-  .wrapper {
-    min-height: 100%;
-    overflow: hidden;
-    min-width: 1100px;
-  }
+  display: block;
+  content: "";
+  clear: both;
+}
 
-  .container {
-    margin: 0 auto;
-    width: 1050px;
-  }
+.wrapper::after {
+  content: "";
+  display: block;
+  height: 77px;
+}
 
-  h1, h2, h3, h4, h5, h6 {
-    padding: 0;
-    margin: 0;
-    font-weight: normal;
-  }
-  
-  ul {
-    padding: 0;
-    margin: 0;
-  }
-  
-  ul li {
-    list-style: none;
-  }
+.container {
+  margin: 0 auto;
+  width: 1060px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+
+.title {
+  font-family: 'GothamPro', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 49px;
+}
+
+.main {
+  float: left;
+  width: 880px;
+}
+
+
+a:active, a:focus { outline: none; }
+
+input, textarea {
+  outline:none;
+}
+
+input:active, textarea:active {
+  outline:none;
+}
+
+:focus {
+  outline:none;
+}
+
+textarea {
+  resize:none;
+}
+
+textarea {
+  resize:vertical;
+}
+textarea {
+  resize:horizontal;
+}
+
+:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+:focus::-moz-placeholder {
+  color: transparent;
+}
+
+:focus:-moz-placeholder {
+  color: transparent;
+}
+
+:focus:-ms-input-placeholder {
+  color: transparent;
+}
