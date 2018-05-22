@@ -196,7 +196,7 @@ text-align: left;
   color: #ffffff;
 }
 
-.pagination__item_active-rev > .pagination__link {
+.pagination__item_active--red > .pagination__link {
   color: #ec1e79;
 }
 
@@ -213,7 +213,7 @@ text-align: left;
   text-align: center;
 }
 
-.pagination__item_active-rev:hover > .pagination__link {
+.pagination__item_active--red:hover > .pagination__link {
   color: #ec1e79;
 }
 
@@ -223,7 +223,7 @@ text-align: left;
   transition: .3s;
 }
 
-.pagination__item--rev:hover > .pagination__link {
+.pagination__item--red:hover > .pagination__link {
   color: #ec1e79;
 }
 

@@ -31,10 +31,6 @@ ul li {
   padding: 58px 0 69px 0;
 }
 
-.main-content_comments {
-  padding: 36px 0 51px 0;
-}
-
 .clearfix::after {
   display: block;
   content: "";

@@ -1,0 +1,247 @@
+.breadcrumbs {
+  margin-bottom: 20px;
+}
+
+.breadcrumbs__item {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'GothamPro', Arial, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.breadcrumbs__item a {
+  text-decoration: none;
+  color: rgba(236, 30, 121, 1);
+  border-bottom: 1px #fbdfe8 solid;
+}
+
+.breadcrumbs__item::after {
+  content: '/';
+  display: inline-block;
+}
+
+.breadcrumbs__item:last-child::after {
+  display: none;
+}
+
+a.breadcrumbs__link--active {
+  color: rgba(34, 31, 31, 1);
+  border-bottom: none;
+}
+
+.review__photo {
+  background-color: #f5f5f5;
+}
+
+.poster {
+  display: block;
+  background-color: #27273e;
+  background-image: url('../../img/pictures/poster.png');
+  background-position: center, center;
+  background-repeat: repeat;
+  padding: 42px 0;
+}
+
+.poster__text {
+  margin: 0 auto;
+  font-family: 'GothamPro', Arial, sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 300;
+  display: block;
+  width: 615px;
+  line-height: 1.7;
+}
+
+.poster__text strong {
+  color: #c02169;
+  font-weight: bold;
+}
+
+.form__radio-fake {
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid gray;
+  position: relative;
+  transition: .3s;
+}
+.form__radio:checked + .form__radio-fake::before {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #c02169;  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: .3s;
+}
+
+.form__radio:checked + .form__radio-fake{
+  border: 2px solid #c02169;
+}
+
+.form__radio:checked + .form__radio-fake + .form__trigger-title{
+  color: #c02169;
+  transition: .3s;
+}
+
+.form__radio {
+  display: none;
+}
+
+.form {
+  margin: 0 auto;
+  width: 700px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  padding: 41px 68px;
+  color: #221f1f;
+  margin-bottom: 6px;
+}
+
+.form .title {
+  margin-bottom: 18px;
+}
+
+.form__row {
+  display: inline-block;
+  font-family: 'GothamPro', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  width: 100%;
+}
+
+.form__submite {
+  background-color: #27273e;
+  border-radius: 3px;
+  width: 140px;
+  height: 45px;
+  color: #ffffff;
+  font-family: 'GothamPro', Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  display: inline-block;
+  letter-spacing: 2.2px;
+  text-transform: uppercase;
+}
+
+.form__submite:hover {
+  background-color: #ec1e79;
+}
+
+.form__input:focus, .form__big-text:focus {
+  border: 2px solid #ec1e79;
+  opacity: 1;
+  background-color: #ffffff;
+}
+
+.form__field-title {
+  display: block;
+}
+
+.form__input {
+  box-sizing: border-box;
+  width: 272px;
+  height: 45px;
+  outline: 0;
+  border: none;
+  border-radius: 3px;
+  display: block;
+  border: 2px solid #f5f5f5;
+}
+
+.form__input, .form__big-text {
+  opacity: .65;
+  background-color: #fcfcfc;
+}
+
+.form__column--left {
+  float: left;
+  width: 50%;
+}
+
+.form__column--right {
+  float: right;
+  width: 48%;
+  margin-left: 2%;
+}
+.form__button {
+  display: block;
+  text-align: right;
+}
+
+.form__control-title {
+  margin-bottom: 11px;
+}
+
+.form__control-trigger {
+  margin-right: 22px;
+}
+
+.form__big-text {
+  overflow: auto;
+  resize: none;
+  width: 560px;
+  height: 90px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-family: "GothamPro";
+  color: rgb(34, 31, 31);
+  border: 2px solid white;
+  margin-top: 7px;
+  padding: 8px 11px;
+}
+
+.form__input {
+  margin-top: 7px;
+  padding-left: 13px;
+}
+
+.form__field-title {
+  margin-bottom: 14px;
+}
+
+.form__field-title .form__big-text {
+  display: block;
+}
+
+.review {
+  font-family: 'GothamPro', Arial, Helvetica, sans-serif;
+}
+
+.review-block .title {
+  margin-bottom: 43px;
+}
+
+.review__text {
+  width: 700px;
+}
+
+.reviews__content {
+  line-height: 1.62;
+}
+
+.review__data {
+  letter-spacing: 0.5px;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.review-block {
+  margin-bottom: 44px;
+}
+
+.section-form {
+  padding-top: 56px;
+}
